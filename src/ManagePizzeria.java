@@ -73,7 +73,7 @@ public class ManagePizzeria {
         MA.deleteOrder(9);
 
         MA.updateOrderDetail(fa.llistaPizzes.get(4),fa.llistaCustomers.get(1).getOrder(1),80);
-        MA.deleteOrderDetail(fa.llistaPizzes.get(fa.llistaPizzes.size()-1), fa.llistaCustomers.get(5).getOrder(0));
+        MA.deleteOrderDetail(fa.llistaPizzes.get(0), fa.llistaCustomers.get(fa.llistaCustomers.size()-1).getOrder(0));
 
         fa.readContainsFile("contains.txt");
         System.out.println("Contains llegit des del fitxer");
